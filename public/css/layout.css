@@ -15,6 +15,7 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. Weather App
 
 ===================================================================== */
 
@@ -66,7 +67,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -187,7 +188,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #93EAFD;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -236,7 +237,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #93EAFD;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -1004,3 +1005,50 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+/* ------------------------------------------------------------------ */
+/* j. Weather Section
+/* ------------------------------------------------------------------ */
+
+#weather {
+   background: #93EAFD;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#weather a, #weather a:visited  { color: #fff; }
+#weather a:hover, #weather a:focus { color: #11ABB0; }
+
+#weather h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#weather p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#weather .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#weather .contact-details { width: 41.66667%; }
+#weather .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#weather .main-col { padding-right: 5%; }
+#weather .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#weather .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#weather .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}

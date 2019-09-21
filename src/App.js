@@ -3,10 +3,12 @@ import Header from './components/header/header';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
+import Weather from './components/weather/weather';
 import Testimonials from  './components/testimonials/testimonials';
 import ContactUs from './components/contact/contact';
 import Footer from './components/footer/footer';
 import resumeData from './resumeData';
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class App extends Component {
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
+        <Weather resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
