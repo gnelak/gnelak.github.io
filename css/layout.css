@@ -212,7 +212,7 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 100%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -640,7 +640,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: rgb(255, 254, 254) url(../images/testimonials-bg.jpg) no-repeat center center;
+   opacity: 0.8;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -649,6 +650,7 @@ call-to-action .button {
    min-height: 200px;
    width: 100%;
    overflow: hidden;
+
 }
 #testimonials .text-container {
    padding-top: 96px;
@@ -671,6 +673,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #fff;
+   opacity: 1.2;
 }
 
 /*	Blockquotes */
@@ -789,10 +792,11 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #d5d8da;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -818,14 +822,26 @@ call-to-action .button {
    color: #ebeeee;
 }
 
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
+/* social links */
+#contact .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
 }
+#contact .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 42px;
+    color: #F06000;
+}
+#contact .social-links li:first-child { margin-left: 0; }
+
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color:  rgb(136, 136, 135);
+   text-align: center;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -900,26 +916,6 @@ call-to-action .button {
    left: 18px;
    top: 17px;
 }
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -1010,7 +1006,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 
 #weather {
-   background: #93EAFD;
+   background: rgb(39, 163, 235);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
