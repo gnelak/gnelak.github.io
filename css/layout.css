@@ -54,7 +54,6 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;s
-   text-align: center;
 }
 
 header .banner-text { width: 100%; }
@@ -792,12 +791,16 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #d5d8da;
+   background: #ffffff;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
    text-align: center;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
 }
+
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
@@ -1006,7 +1009,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 
 #weather {
-   background: rgb(39, 163, 235);
+   background: #93EAFD;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
